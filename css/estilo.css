@@ -39,7 +39,6 @@ body{
 	resize: none;
 	text-align: left;
 	margin-left: 16px;
-	margin-right: 16px;
 }
 
 .area::placeholder{
@@ -301,7 +300,7 @@ body{
 		width: 335px;
 		height: 400px;
 		margin-top: 240px;
-		background-image: url(../images/muneco.svg);
+		background-image: url(../images/Muneco.svg);
 		background-repeat: no-repeat;
 		border-style: none;
 	}
