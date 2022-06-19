@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/estilo.css" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	<link rel="icon" type="imagen/x-icon" href="images/logo_alura.svg">
+	<title>Encriptador</title>
+</head>
+
+
+<body>
+
+	<main class="container"><!--padre flex-->
+		<img src="images/logo_alura.svg" class="logo" id="logo_Alura">
+		<section >
+			<form class="Form__Encriptar"><!--padre flex-->
+
+				<textarea id="area_ec" class="area" placeholder="Ingrese el texto aquí"></textarea>				
+				<div class="small_container">
+					<img src="images/Vector.svg" id="vector">
+					<small id="small">solo letras minusculas y sin acentos</small>	
+				</div>
+
+				<button class="buttons btn_color_enc" type="reset" id="encrip">Encriptar</button>
+				<button class="buttons btn_color_desnc" type="reset" id="desen">Desenciptar</button>
+			</form>
+		</section>
+
+		<section class="container_msj">
+			<form >
+				
+				<figure>
+           			<div class="muneco" />
+          		</figure>
+				<h2 class="subtitulo">Ningún mensaje fue encontrado</h2>
+				<textarea class="area_desencrip"  placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>			
+			</form>
+			<button  class="cpy btn_cpy" >Copiar</button>
+
+		</section>
+
+	</main>
+
+	<footer class="footer_container">
+		<img src="images/logo_alura.svg" class="logo_footer" id="logo_Alura">
+
+		<span class="span_footer">&copy;Desarrollado por Robinso Medina Estudiante Alura & Oracle - 2022</span>
+		<section>
+			<div class="icons_container">
+				<a href="https://www.linkedin.com/in/robinsomedina" target="blank" ><img src="images/icon-linkedin.png" class="icons facebook" alt="">
+	        	<a href="https://twitter.com/robinsomedina" target="blank"><img src="images/icon-twitter.png" class= "icons"alt=""></a>
+	        	<a href="https://www.instagram.com/robinsomediina/" target="blank"><img src="images/icon-instagram.png" class="icons instagram" alt=""></a>
+        	</div>
+		</section>
+		
+	</footer>
+
+	<script type="text/javascript" src="js/encriptador.js"></script>
+
+</body>
+</html>
